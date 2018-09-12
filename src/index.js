@@ -1,10 +1,5 @@
 // @flow
 
-function foo(x: ? number): number {
-  if (x) {
-    return x;
-  }
-  return 1;
-}
+const square = (n: number): number => n * n;
 
-foo(1);
+square(1);
