@@ -1,0 +1,13 @@
+.DS_Store
+
+.cache/
+node_modules/
+
+npm-debug.log
+yarn-error.log
+
+dist/
+dev/
+lib/
+
+*.tgz
